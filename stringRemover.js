@@ -9,7 +9,9 @@ removeStringValuesLongerThan(6, obj);
 console.log(obj); // { age: 20, location: 'Texas' }
 */
 
-function removeStringValuesLongerThan(num, obj) {
+function removeStringByLength(num, obj) {
   // your code here
 
 }
+
+module.exports = removeStringByLength;
