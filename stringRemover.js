@@ -1,16 +1,19 @@
-/*Given an number and an object, "removeStringValuesLongerThan" removes any properties on the given object whose values are strings longer than the given number.
+/*You are required to write a function removeStringByLength removes any property on a given object whose string length are greater than or equal to a given number.
 
+For example,
 var obj = {
-  name: 'Montana',
-  age: 20,
-  location: 'Texas'
+  name: 'Mohammed',
+  age: 30,
+  location: 'Lagos',
+  sex:'Male'
+
 };
-removeStringValuesLongerThan(6, obj);
-console.log(obj); // { age: 20, location: 'Texas' }
+removeStringValuesLongerThan(5, obj);
+console.log(obj); // { age: 30, sex: 'Male' }
 */
 
-function removeStringByLength(num, obj) {
-  // your code here
+function removeStringByLength(stringlength, stringObj) {
+  // WRITE YOUR CODE HERE
 
 }
 
