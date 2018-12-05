@@ -31,7 +31,7 @@ test('compares two strings to see if they are isomorphic', () => {
     expect(isIsomorphic('spoof','croof')).toBe(true);
 });
 test('compares two strings to see if they are isomorphic', () => {
-    expect(isIsomorphic('join','dadf')).toBe(true);
+    expect(isIsomorphic('join','dadf')).toBe(false);
 });
 test('compares two strings to see if they are isomorphic', () => {
     expect(isIsomorphic('smack','spark')).toBe(true);
