@@ -1,20 +1,14 @@
-/*You are required to write a function removeStringByLength removes any property on a given object whose string length are greater than or equal to a given number.
+/*Given two arrays, E and F, of non-negative integer scores. A "unique" score is one which is a multiple of 10, such as 50 or 60. Return the sum of largest unique score in E and the largest unique score in F. 
 
-For example,
-var obj = {
-  name: 'Mohammed',
-  age: 30,
-  location: 'Lagos',
-  sex:'Male'
-
-};
-removeStringValuesLongerThan(5, obj);
-console.log(obj); // { age: 30, sex: 'Male' }
+Hint: 
+uniqueScore({12, 10, 4}, {2, 20, 30}) → 40
+uniqueScore({20, 10, 4}, {2, 20, 10}) → 40
+uniqueScore({12, 11, 4}, {2, 20, 31}) → 20
 */
 
-function removeStringByLength(stringlength, stringObj) {
+function uniqueScore(firstArr, secondArr) {
   // WRITE YOUR CODE HERE
 
 }
 
-module.exports = removeStringByLength;
+module.exports = uniqueScore;
