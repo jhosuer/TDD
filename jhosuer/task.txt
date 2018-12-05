@@ -1,0 +1,4 @@
+For two strings to be isomorphic, all occurences of a charachter in sting A can be replaced with another character to get string B. The order of the charachters must be preserved. These must be a one-to-one mapping for every char of string A to every char of string B.
+
+isIsomorphic(abb) => egg
+isIsomorphic(dcd) => bgb
