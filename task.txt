@@ -1,7 +1,0 @@
-Write a function that will take two arrays, return a third array that will contain the elements of the two arrays,
-one after the order. The length of the array must not necessarily be equal and in that case, when one array runs out of
-elements, the second one continues until all elements are added;
-Example
-
-concatArrays([1,5,4,6,8],[7,1,0,6]) => [1,7,5,1,4,0,6,6,8]
-concatArrays(['a','c','e'],['b','d','f','g','h']) => ['a','b','c','d','e','f','g','h']
